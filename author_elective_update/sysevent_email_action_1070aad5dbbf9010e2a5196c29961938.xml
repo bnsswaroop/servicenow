@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="DELETE">
+        <action_insert>true</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>incident</collection>
+        <condition table="incident">assignment_group=7c936099db739010e2a5196c299619ad^short_descriptionLIKEBatchHold^incident_stateIN6,7,8^EQ<item display_table="sys_user_group" display_value="AllyGroup" endquery="false" field="assignment_group" goto="false" newquery="false" operator="=" or="false" value="7c936099db739010e2a5196c299619ad"/>
+            <item endquery="false" field="short_description" goto="false" newquery="false" operator="LIKE" or="false" value="BatchHold"/>
+            <item display_value="6,7,8" endquery="false" field="incident_state" goto="false" newquery="false" operator="IN" or="false" value="6,7,8"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>alert_priority.calc_priority_grouping</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html/>
+        <message_list/>
+        <message_text/>
+        <messaging_channels/>
+        <messaging_content/>
+        <name>BatchRelease</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups/>
+        <recipient_users>21727cf21b920010ecdaa9b4bd4bcb0e</recipient_users>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>BatchRelease</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-11 01:59:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1070aad5dbbf9010e2a5196c29961938</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BatchRelease</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BatchHold" source="x_294170_batchhold">cc4228d1db739010e2a5196c29961985</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BatchHold">cc4228d1db739010e2a5196c29961985</sys_scope>
+        <sys_update_name>sysevent_email_action_1070aad5dbbf9010e2a5196c29961938</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-11 01:59:52</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BatchHold">cc4228d1db739010e2a5196c29961985</application>
+        <file_path/>
+        <instance_id>b2aca639dbf033040b9d21c405961988</instance_id>
+        <instance_name>dev80970</instance_name>
+        <name>sysevent_email_action_1070aad5dbbf9010e2a5196c29961938</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;
+    &lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;
+        &lt;action_insert&gt;true&lt;/action_insert&gt;
+        &lt;action_update&gt;true&lt;/action_update&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;advanced_condition/&gt;
+        &lt;affected_field_on_event/&gt;
+        &lt;category display_value="Uncategorized" name="Uncategorized"&gt;c97d83137f4432005f58108c3ffa917a&lt;/category&gt;
+        &lt;collection&gt;incident&lt;/collection&gt;
+        &lt;condition table="incident"&gt;assignment_group=7c936099db739010e2a5196c299619ad^short_descriptionLIKEBatchHold^incident_stateIN6,7,8^EQ&lt;item display_table="sys_user_group" display_value="AllyGroup" endquery="false" field="assignment_group" goto="false" newquery="false" operator="=" or="false" value="7c936099db739010e2a5196c299619ad"/&gt;
+            &lt;item endquery="false" field="short_description" goto="false" newquery="false" operator="LIKE" or="false" value="BatchHold"/&gt;
+            &lt;item display_value="6,7,8" endquery="false" field="incident_state" goto="false" newquery="false" operator="IN" or="false" value="6,7,8"/&gt;
+            &lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;
+        &lt;/condition&gt;
+        &lt;content_type&gt;text/html&lt;/content_type&gt;
+        &lt;default_interval/&gt;
+        &lt;description/&gt;
+        &lt;digest_from/&gt;
+        &lt;digest_html/&gt;
+        &lt;digest_reply_to/&gt;
+        &lt;digest_separator_html&gt;&lt;![CDATA[&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/digest_separator_html&gt;
+        &lt;digest_separator_text&gt;&lt;![CDATA[\n--------------------------------------------------------------------------------\n]]&gt;&lt;/digest_separator_text&gt;
+        &lt;digest_subject/&gt;
+        &lt;digest_template/&gt;
+        &lt;digest_text/&gt;
+        &lt;digestable&gt;false&lt;/digestable&gt;
+        &lt;event_name&gt;alert_priority.calc_priority_grouping&lt;/event_name&gt;
+        &lt;event_parm_1&gt;false&lt;/event_parm_1&gt;
+        &lt;event_parm_2&gt;false&lt;/event_parm_2&gt;
+        &lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;
+        &lt;force_delivery&gt;false&lt;/force_delivery&gt;
+        &lt;from/&gt;
+        &lt;generation_type&gt;engine&lt;/generation_type&gt;
+        &lt;importance/&gt;
+        &lt;include_attachments&gt;false&lt;/include_attachments&gt;
+        &lt;item&gt;event.parm1&lt;/item&gt;
+        &lt;item_table/&gt;
+        &lt;mandatory&gt;false&lt;/mandatory&gt;
+        &lt;message/&gt;
+        &lt;message_html/&gt;
+        &lt;message_list/&gt;
+        &lt;message_text/&gt;
+        &lt;messaging_channels/&gt;
+        &lt;messaging_content/&gt;
+        &lt;name&gt;BatchRelease&lt;/name&gt;
+        &lt;omit_watermark&gt;false&lt;/omit_watermark&gt;
+        &lt;order&gt;100&lt;/order&gt;
+        &lt;push_message_only&gt;false&lt;/push_message_only&gt;
+        &lt;recipient_fields/&gt;
+        &lt;recipient_groups/&gt;
+        &lt;recipient_users&gt;21727cf21b920010ecdaa9b4bd4bcb0e&lt;/recipient_users&gt;
+        &lt;reply_to/&gt;
+        &lt;send_self&gt;true&lt;/send_self&gt;
+        &lt;sms_alternate/&gt;
+        &lt;style/&gt;
+        &lt;subject&gt;BatchRelease&lt;/subject&gt;
+        &lt;subscribable&gt;false&lt;/subscribable&gt;
+        &lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2020-10-11 01:59:52&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;1070aad5dbbf9010e2a5196c29961938&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;BatchRelease&lt;/sys_name&gt;
+        &lt;sys_overrides/&gt;
+        &lt;sys_package display_value="BatchHold" source="x_294170_batchhold"&gt;cc4228d1db739010e2a5196c29961985&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="BatchHold"&gt;cc4228d1db739010e2a5196c29961985&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sysevent_email_action_1070aad5dbbf9010e2a5196c29961938&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2020-10-11 01:59:52&lt;/sys_updated_on&gt;
+        &lt;sys_version&gt;2&lt;/sys_version&gt;
+        &lt;template display_value="Unsubscribe and Preferences"&gt;7ed0481f3b0b2200c869c2c703efc487&lt;/template&gt;
+        &lt;type&gt;email&lt;/type&gt;
+        &lt;weight&gt;0&lt;/weight&gt;
+    &lt;/sysevent_email_action&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>406641381</payload_hash>
+        <record_name>BatchRelease</record_name>
+        <reverted_from/>
+        <source>c6826a5ddbbf9010e2a5196c29961953</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-11 02:07:35</sys_created_on>
+        <sys_id>ce826a5ddbbf9010e2a5196c2996196f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1751569c9000000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-11 02:07:35</sys_updated_on>
+        <type>Notification</type>
+        <update_guid>4e826a5d9fbf90108c7740cdef2cd16f</update_guid>
+        <update_guid_history>4e826a5d9fbf90108c7740cdef2cd16f:0,95822a5de6bf901066b6b086db05b089:-1051637981,2ee1a6d9d0bf90108eee13d512a51b54:0,b1e166d920bf9010a0e849d35f286d80:-1051637981,fc6126594bbf9010895a03a35045df43:0,b751e2594cbf9010732102bc6a76e01e:-1051637981,d1c0a6d533bf901086a52301e9b03f99:-239009233</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-11 02:15:19</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_email_action">sysevent_email_action</sys_db_object>
+        <sys_id>1e270a1c00bc4638941e98a7d270b164</sys_id>
+        <sys_metadata>1070aad5dbbf9010e2a5196c29961938</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BatchRelease</sys_name>
+        <sys_package display_value="BatchHold" source="x_294170_batchhold">cc4228d1db739010e2a5196c29961985</sys_package>
+        <sys_parent display_value="Incident">bca96592bc802300aadb875973a34b6a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="BatchHold">cc4228d1db739010e2a5196c29961985</sys_scope>
+        <sys_scope_delete display_value="">5170d9b545914f9caa5bb9aba0f2d264</sys_scope_delete>
+        <sys_update_name>sysevent_email_action_1070aad5dbbf9010e2a5196c29961938</sys_update_name>
+        <sys_update_version display_value="sysevent_email_action_1070aad5dbbf9010e2a5196c29961938">ce826a5ddbbf9010e2a5196c2996196f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-11 02:15:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
