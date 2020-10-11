@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>tbl_ally</name>
+        <order>100</order>
+        <roles>x_294170_batchhold.tbl_ally_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-11 01:17:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>86f65e91db7f9010e2a5196c29961982</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tbl_ally</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BatchHold" source="x_294170_batchhold">cc4228d1db739010e2a5196c29961985</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BatchHold">cc4228d1db739010e2a5196c29961985</sys_scope>
+        <sys_update_name>sys_app_application_86f65e91db7f9010e2a5196c29961982</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-11 01:17:04</sys_updated_on>
+        <title>tbl_ally</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BatchHold">cc4228d1db739010e2a5196c29961985</application>
+        <file_path/>
+        <instance_id>b2aca639dbf033040b9d21c405961988</instance_id>
+        <instance_name>dev80970</instance_name>
+        <name>sys_app_application_86f65e91db7f9010e2a5196c29961982</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>tbl_ally</name><order>100</order><roles>x_294170_batchhold.tbl_ally_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-10-11 01:17:04</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>86f65e91db7f9010e2a5196c29961982</sys_id><sys_mod_count>0</sys_mod_count><sys_name>tbl_ally</sys_name><sys_overrides/><sys_package display_value="BatchHold" source="x_294170_batchhold">cc4228d1db739010e2a5196c29961985</sys_package><sys_policy/><sys_scope display_value="BatchHold">cc4228d1db739010e2a5196c29961985</sys_scope><sys_update_name>sys_app_application_86f65e91db7f9010e2a5196c29961982</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-10-11 01:17:04</sys_updated_on><title>tbl_ally</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>-1535156416</payload_hash>
+        <record_name>tbl_ally</record_name>
+        <reverted_from/>
+        <source>e7fb68dddb739010e2a5196c299619eb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-11 01:17:04</sys_created_on>
+        <sys_id>86f65e91db7f9010e2a5196c29961985</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>175153b87950000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-11 01:17:04</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>cef65e91f67f90106085a4bcf19bc084</update_guid>
+        <update_guid_history>cef65e91f67f90106085a4bcf19bc084:-1535156416</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="tbl_ally">9eaa1619db7f9010e2a5196c299619f2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-11 01:33:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>5c6cc00dbb8a46efab24bad794bd8351</sys_id>
+        <sys_metadata>86f65e91db7f9010e2a5196c29961982</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tbl_ally</sys_name>
+        <sys_package display_value="BatchHold" source="x_294170_batchhold">cc4228d1db739010e2a5196c29961985</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BatchHold">cc4228d1db739010e2a5196c29961985</sys_scope>
+        <sys_scope_delete display_value="">5170d9b545914f9caa5bb9aba0f2d264</sys_scope_delete>
+        <sys_update_name>sys_app_application_86f65e91db7f9010e2a5196c29961982</sys_update_name>
+        <sys_update_version display_value="sys_app_application_86f65e91db7f9010e2a5196c29961982">86f65e91db7f9010e2a5196c29961985</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-11 01:33:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
